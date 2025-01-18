@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "lalezar";
+    src: url('/fonts/Lalezar-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: "vazir";
+    src: url('/fonts/Vazir.woff') format('woff');
+}
+body{
+    font-family: 'vazir', sans-serif;
+}
+.text-center{
+    text-align: center;
+}
+.align-item-center{
+    align-items: center;
+}
+.lalezar{
+    font-family: 'lalezar',sans-serif;
+}
+
+header{
+    background-color: #37517e;
+}
+.navbar{
+    padding: 30px;
+    color: #fff;
+    letter-spacing: 10px;
+}
+.intro{
+    padding: 50px;
+    color: #fff;
+}
+.title{
+    font-size: 30px;
+}
+.desc{
+    line-height: 1.5rem;
+    text-align: justify;
+    padding: 20px 0;
+    color: rgb(202, 202, 202);
+}
+.start-btn{
+    all: unset;
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 15px;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+.start-btn:hover{
+    background-color: #fff;
+    color: #37517e;
+}

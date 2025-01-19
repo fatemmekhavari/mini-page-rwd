@@ -91,3 +91,35 @@ section{
     text-align: justify;
 }
 
+/* course */
+.card{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    transform: translateY(-5px);
+}
+.card-title{
+    font-weight: bold;
+    padding: 10px 10px 40px;
+}
+.divider{
+    border: none;
+    background-color: lightgray;
+    height: 1px;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+.card-footer button{
+    all: unset; 
+    background-color: rgb(101, 101, 242);
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 16px;
+}

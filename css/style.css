@@ -54,3 +54,40 @@ header{
     background-color: #fff;
     color: #37517e;
 }
+section{
+    padding: 30px;
+}
+.section-title{
+    font-family: 'lalezar', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+/* team */
+.team-card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    overflow: hidden;
+}
+.team-card:hover{
+    transform: scale(1.05);
+}
+.team-card-name{
+    color: #012970;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+}
+.team-card-job{
+      color: #a3a4a4;
+      font-size: 16px;
+      padding: 10px;
+}
+.team-card-desc{
+    color: rgb(100,100,100);
+    padding: 20px 20px 30px;
+    text-align: justify;
+}
+
